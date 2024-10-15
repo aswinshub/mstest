@@ -6,7 +6,6 @@ export default function Home() {
     <div className=" font-poppins">
       <Navbar />
 
-      {/* Hero Section */}
       <div
         className="relative h-screen bg-cover bg-center bg-no-repeat"
         style={{
@@ -29,7 +28,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Second Section */}
       <div className="px-4 md:px-8 lg:px-16">
         <div
           className="my-6 h-[640px] bg-contain bg-center bg-no-repeat relative"
@@ -58,7 +56,6 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-5 gap-4  ">
-        {/* First column (100% on small screens, 60% on medium and larger screens) */}
         <div className="md:col-span-3  px-4 lg:px-14 md:px-4 ">
           <h1 className="text-2xl md:text-xl lg:text-4xl mb-4">
             Lorem ipsum dolor sit amet, consectetur{" "}
@@ -80,7 +77,6 @@ export default function Home() {
           </p>{" "}
         </div>
 
-        {/* Second column with 2 rows (100% width on small screens, 40% on medium and larger) */}
         <div className="grid grid-rows-2 md:col-span-2 gap-2">
           <div className="  pr-8 py-5 ">
             <h1 className="text-xl md:text-xl lg:text-2xl mb-4">Lorem ipsum</h1>
@@ -109,17 +105,16 @@ export default function Home() {
           <br />
           consectetur
         </h1>
+        <br />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mx-16 mx-4 md:mx-4 text-white">
-          {/* First column with 2 rows (1st row 60%, 2nd row 40%) */}
           <div className="grid grid-rows-5 gap-2">
-            {/* First Column - Row 1 (60%) with background image */}
             <div
               className="border-2 p-4 row-span-3 bg-center bg-no-repeat w-full h-60 cursor-pointer"
               style={{
                 backgroundImage:
                   "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728965189/Rectangle_985_igviwr.png')",
-                backgroundSize: "100% 100%", // Ensures the image stretches to fill the container
+                backgroundSize: "100% 100%",
               }}
             >
               <div className="mt-28">
@@ -133,7 +128,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* First Column - Row 2 (40%) */}
             <div
               className="border-2 p-4 row-span-2 "
               style={{
@@ -154,9 +148,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Second column with 2 rows (1st row 40%, 2nd row 60%) */}
           <div className="grid grid-rows-5 gap-2">
-            {/* Second Column - Row 1 (40%) */}
             <div
               className="row-span-2 border-2 p-4"
               style={{
@@ -176,7 +168,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Second Column - Row 2 (60%) */}
             <div
               className="row-span-3 border-2 p-4"
               style={{
@@ -297,7 +288,6 @@ export default function Home() {
         }}
       >
         <div className="flex flex-col md:flex-row gap-4 relative">
-          {/* First column */}
           <div className="w-full md:w-1/2 p-2">
             <h2 className="text-xl">
               Lorem Ipsum <br /> dolor sit consectetur
@@ -314,8 +304,6 @@ export default function Home() {
               iaculis elit lorem, et varius ipsum dictum.
             </p>
           </div>
-
-          {/* Second column */}
 
           <div className="w-2/5 p-4 bg-white rounded-[10px] ml-20  relative">
             <h2 className="text-xl ">Lorem Ipsum ?</h2>
@@ -372,106 +360,92 @@ export default function Home() {
               />
             </button>
           </div>
-
-
-
-          
         </div>
 
         <div>
+          <div className="grid grid-cols-1 md:grid-cols-3   gap-10 p-5">
+            {/* Card 1 */}
+            <div
+              className="rounded-lg h-[375px] bg-cover bg-center flex items-end p-4"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728979411/image_269_qfchr6.png')",
+              }}
+            >
+              <div className=" p-4 text-white w-full rounded-lg">
+                <p className="text-base font-semibold">
+                  dictumst. Fusce non venenatis velit. Proin luctus malesuada
+                  mauris vitae mattis
+                </p>
+                <button className="text-sm"> Read More</button>
+              </div>
+            </div>
 
+            {/* Card 2 */}
+            <div
+              className="rounded-lg h-[375px] bg-cover bg-center flex items-end p-4"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728979516/image_272_rorwsu.png')",
+              }}
+            >
+              <div className=" p-4 text-white w-full rounded-lg">
+                <p className="text-base font-semibold">
+                  dictumst. Fusce non venenatis velit. Proin luctus malesuada
+                  mauris vitae mattis
+                </p>
+                <button className="text-sm"> Read More</button>
+              </div>
+            </div>
 
-
-<div className="grid grid-cols-1 md:grid-cols-3   gap-10 p-5">
-  {/* Card 1 */}
-  <div
-    className="rounded-lg h-[375px] bg-cover bg-center flex items-end p-4"
-    style={{
-      backgroundImage: "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728979411/image_269_qfchr6.png')",
-    }}
-  >
-    <div className= " p-4 text-white w-full rounded-lg">
-     
-      <p className="text-base font-semibold">dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis</p>
-      <button className="text-sm"> Read More</button>
-    </div>
-  </div>
-
-  {/* Card 2 */}
-  <div
-    className="rounded-lg h-[375px] bg-cover bg-center flex items-end p-4"
-    style={{
-      backgroundImage: "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728979516/image_272_rorwsu.png')",
-    }}
-  >
-    <div className= " p-4 text-white w-full rounded-lg">
-     
-      <p className="text-base font-semibold">dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis</p>
-      <button className="text-sm"> Read More</button>
-    </div>
-  </div>
-
-  {/* Card 3 */}
-  <div
-    className="rounded-lg h-[375] bg-cover bg-center flex items-end p-4"
-    style={{
-      backgroundImage: "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728979557/image_271_m8e5rv.png')",
-    }}
-  >
-    <div className=" p-4 text-white w-full rounded-lg">
-      
-      <p className="text-base font-semibold">dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis</p>
-      <button className="text-sm"> Read More</button>
-    </div>
-  </div>
-</div>
-
-
+            {/* Card 3 */}
+            <div
+              className="rounded-lg h-[375] bg-cover bg-center flex items-end p-4"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728979557/image_271_m8e5rv.png')",
+              }}
+            >
+              <div className=" p-4 text-white w-full rounded-lg">
+                <p className="text-base font-semibold">
+                  dictumst. Fusce non venenatis velit. Proin luctus malesuada
+                  mauris vitae mattis
+                </p>
+                <button className="text-sm"> Read More</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div
-        className="h-[280px] bg-cover bg-no-repeat  relative flex justify-center items-center  "
+        className="h-auto bg-cover bg-no-repeat  relative flex justify-center items-center  "
         style={{
           backgroundImage:
             "url('https://res.cloudinary.com/df3ffobko/image/upload/v1728982980/Rectangle_1187_jslxto.png')",
         }}
       >
+        <div className="flex flex-col md:flex-row gap-10 px-6 md:px-20 py-10 md:py-20 mb-5">
+          <div className="flex-1 text-white p-4 md:p-6 rounded-lg">
+            <h2 className="text-xl md:text-2xl tracking-wider mb-4">
+              Let’s work Together
+            </h2>
+            <p className="font-light">
+              Lorem ipsum dolor sit amet consectetur. Mattis cursus nulla ornare
+              tristique euismod arcu tristique nisl id nibh. Viverra feugiat
+              viverra. Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
 
-       
-
-  <div className="flex flex-col md:flex-row gap-10 px-20 py-20">
-  {/* Column 1 */}
-  <div className="flex-1 text-white p-6 rounded-lg">
-    <h2 className="text-2xl tracking-wider	 mb-4">Let’s work Together</h2>
-    <p className="font-light">
-    Lorem ipsum dolor sit amet consectetur. Mattis cursus nulla ornare tristique euismod rcu tristique nisl id nibh. viverra feugiat viverra.Lorem ipsum dolor sit amet consectetur
-    </p>
-  </div>
-
-  {/* Column 2 */}
-  <div className="flex-1 p-6  flex justify-end items-center">
-  <button className="bg-white text-black px-8 py-2 rounded-md text-sm tracking-wider font-semibold">
-    <span>View Vacancies</span>
-  </button>
-</div>
-
-
-
+          <div className="flex-1 p-4 md:p-6 flex justify-center md:justify-end items-center">
+            <button className="bg-white text-black px-6  md:px-8 py-2 rounded-md text-sm tracking-wider font-semibold">
+              <span>View Vacancies</span>
+            </button>
+          </div>
         </div>
-
-
-
       </div>
 
-
-{/* Footer----------------- */}
-
-
-
-<Footer/>
-
-
+      <Footer />
     </div>
   );
 }
