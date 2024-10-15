@@ -4,9 +4,10 @@ Getting Started
 Prerequisites
 
 Node.js (v14 or higher)
-npm (Node Package Manager)
+npm 
 
 Installation
+------------
 Clone the repository:
 
 git clone [repository-url]
@@ -15,10 +16,14 @@ Navigate to the project directory:
 
 cd [project-directory]
 Install dependencies:
-
+-----------------------
 
 npm install
+
+
+
 Running the Project
+-------------------
 To start the development server, run:
 
 npm run dev
